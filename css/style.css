@@ -1,0 +1,1869 @@
+html {
+    user-select: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	font-family: Bahnschrift Condensed !important;
+}
+
+.navbarr{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 9999;
+}
+
+#navbar {
+	background-color: white;
+	position: fixed;
+    top: -50px;
+    z-index: ±2147483647;
+	/* Hide the navbar 50 px outside of the top view */
+	width: 96.5%;
+	transition: top 0.3s;
+	float: left;
+}
+
+.logo,
+.jurassicWorldLogo {
+	float: left;
+}
+
+.hrForDropDown {
+	border: none;
+	border-bottom: 10px solid grey;
+	width: 90px;
+	position: absolute;
+	top: 37px;
+	display: none;
+}
+
+.LogoDropdownMainDiv{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 9999;
+}
+
+#logodropdown {
+	position: fixed;
+	top: 0;
+	list-style: none;
+}
+
+.dropdownLogoListItem {
+	position: absolute;
+	left: 0px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	background-image: url('../images/logo_bg.png');
+	background-size: cover;
+	border-bottom: 1px solid rgba(242, 241, 236, 0.5);
+}
+
+.dropdownLogo {
+	width: 166px;
+	height: 115px;
+	padding: 5px;
+}
+
+.dropdownRightSideLogoListItem {
+	margin-left: 126px;
+}
+
+.dpg_logo {
+	width: 168px;
+	height: 115px;
+}
+
+.dropdownLogoIconsListItem {
+	position: relative;
+	left: -40px;
+	background-color: rgba(42, 84, 123, 0.8);
+	width: 334px;
+	text-align: center;
+	font-size: 35px;
+	border-top: 1px solid rgba(242, 241, 236, 0.5);
+	border-right: 1px solid rgba(242, 241, 236, 0.5);
+	border-bottom: 1px solid rgba(242, 241, 236, 0.5);
+}
+
+.dropdownLogoFbIconLink:hover, .dropdownLogoTwitterIconLink:hover, .dropdownLogoInstaIconLink:hover{
+    text-decoration: none;
+}
+
+.dropdownLogoFbIcon,
+.dropdownLogoTwitterIcon,
+.dropdownLogoInstaIcon {
+	color: white;
+	padding-right: 10px;
+	padding-left: 10px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.dropdownLogoFbIcon:hover,
+.dropdownLogoTwitterIcon:hover,
+.dropdownLogoInstaIcon:hover {
+	transform: scale(1.1765) translateZ(0px);
+}
+
+.dropdownLogoAlertListItem {
+	position: relative;
+	left: -40px;
+	background-color: rgba(42, 84, 123, 0.8);
+	width: 47%;
+	border-right: 1px solid rgba(242, 241, 236, 0.5);
+	border-bottom: 1px solid rgba(242, 241, 236, 0.5);
+	float: left;
+	text-transform: uppercase;
+	height: 195px;
+}
+
+.alertPara {
+	text-align: center;
+	font-size: 18px;
+	color: #46b3e3;
+	line-height: 21px;
+	padding-top: 10px;
+}
+
+.volcanicPara {
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	line-height: 0px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.dropdownLogoAlertSectionNumber {
+	font-size: 5em;
+	text-align: center;
+	color: #e32727;
+	line-height: 65px;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.dropdownLogoSliderListItem {
+	position: relative;
+	right: 55px;
+	float: right;
+	background-color: rgba(42, 84, 123, 0.8);
+	width: 48.8%;
+	border-right: 1px solid rgba(242, 241, 236, 0.5);
+	border-bottom: 1px solid rgba(242, 241, 236, 0.5);
+	text-transform: uppercase;
+	height: 195px;
+}
+
+.dropdownLogoSliderSectionPara {
+	padding-top: 10px;
+	color: #46b3e3;
+	font-size: 18px;
+	text-align: center;
+}
+
+.ferrySlideHeading {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.ferrySlideFirstRotatingHeading {
+	color: white;
+	background-color: #6aa151;
+	font-size: 15px;
+	width: 80px;
+	text-align: center;
+	position: absolute;
+	top: 39px;
+	left: 44px;
+	padding: 1px 10px 1px 10px;
+	transform: rotate(-22deg);
+}
+
+.ferrySlideSecondRotatingHeading {
+	color: white;
+	background-color: #6aa151;
+	font-size: 15px;
+	width: 100px;
+	position: relative;
+	top: -12px;
+	left: 45px;
+	padding: 1px 10px 1px 10px;
+	text-align: center;
+	transform: rotate(-22deg);
+}
+
+.meetSlideHeading {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.meetSlideFirstRotatingHeading {
+	color: white;
+	background-color: #6aa151;
+	font-size: 15px;
+	width: 80px;
+	text-align: center;
+	position: absolute;
+	top: 39px;
+	left: 44px;
+	padding: 1px 10px 1px 10px;
+	transform: rotate(-22deg);
+}
+
+.meetSlideSecondRotatingHeading {
+	color: white;
+	background-color: #6aa151;
+	font-size: 15px;
+	width: 130px;
+	position: relative;
+	top: -13px;
+	left: 32px;
+	padding: 1px 10px 1px 10px;
+	text-align: center;
+	transform: rotate(-22deg);
+}
+
+.mosasaurusSlideHeading {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.mosasaurusFirstRotatingHeading {
+	color: white;
+	background-color: #6aa151;
+	font-size: 15px;
+	width: 110px;
+	text-align: center;
+	position: absolute;
+	top: 39px;
+	left: 30px;
+	padding: 1px 10px 1px 10px;
+	transform: rotate(-22deg);
+}
+
+.mosasaurusSecondRotatingHeading {
+	color: white;
+	background-color: #6aa151;
+	font-size: 15px;
+	width: 130px;
+	position: relative;
+	top: -43px;
+	left: 32px;
+	padding: 1px 10px 1px 10px;
+	text-align: center;
+	transform: rotate(-22deg);
+}
+
+.freshSlideHeading {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.freshSlideFirstRotatingHeading {
+	color: white;
+	background-color: #6aa151;
+	font-size: 15px;
+	width: 80px;
+	text-align: center;
+	position: absolute;
+	top: 39px;
+	left: 44px;
+	padding: 1px 10px 1px 10px;
+	transform: rotate(-22deg);
+}
+
+.freshSlideSecondRotatingHeading {
+	color: white;
+	background-color: #6aa151;
+	font-size: 15px;
+	width: 100px;
+	position: relative;
+	top: -43px;
+	left: 45px;
+	padding: 1px 10px 1px 10px;
+	text-align: center;
+	transform: rotate(-22deg);
+}
+
+.innovationSlideHeading {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.innovationSlideFirstRotatingHeading {
+	color: white;
+	background-color: #6aa151;
+	font-size: 15px;
+	width: 110px;
+	text-align: center;
+	position: absolute;
+	top: 43px;
+	left: 24px;
+	padding: 1px 10px 1px 10px;
+	transform: rotate(-22deg);
+}
+
+.innovationSlideSecondRotatingHeading {
+	color: white;
+	background-color: #6aa151;
+	font-size: 15px;
+	width: 120px;
+	position: relative;
+	top: -69px;
+	left: 28px;
+	padding: 1px 10px 1px 10px;
+	text-align: center;
+	transform: rotate(-22deg);
+}
+
+.imaxSlideHeading {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.imaxSlideFirstRotatingHeading {
+	color: white;
+	background-color: #6aa151;
+	font-size: 15px;
+	width: 135px;
+	text-align: center;
+	position: absolute;
+	top: 45px;
+	left: 14px;
+	padding: 1px 10px 1px 10px;
+	transform: rotate(-22deg);
+}
+
+.imaxSlideSecondRotatingHeading {
+	color: white;
+	background-color: #6aa151;
+	font-size: 15px;
+	width: 120px;
+	position: relative;
+	top: -7px;
+	left: 35px;
+	padding: 1px 10px 1px 10px;
+	text-align: center;
+	transform: rotate(-22deg);
+}
+
+.triceratopsSlideHeading {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.triceratopsSlideFirstRotatingHeading {
+	color: white;
+	background-color: #6aa151;
+	font-size: 15px;
+	width: 110px;
+	text-align: center;
+	position: absolute;
+	top: 41px;
+	left: 24px;
+	padding: 1px 10px 1px 10px;
+	transform: rotate(-22deg);
+}
+
+.triceratopsSlideSecondRotatingHeading {
+	color: white;
+	background-color: #6aa151;
+	font-size: 15px;
+	width: 121px;
+	position: relative;
+	top: -41px;
+	left: 29px;
+	padding: 1px 10px 1px 10px;
+	text-align: center;
+	transform: rotate(-22deg);
+}
+
+.feedingSlideHeading {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.feedingSlideFirstRotatingHeading {
+	color: white;
+	background-color: #6aa151;
+	font-size: 15px;
+	width: 155px;
+	text-align: center;
+	position: absolute;
+	top: 47px;
+	left: 4px;
+	padding: 1px 10px 1px 10px;
+	transform: rotate(-22deg);
+}
+
+.feedingSlideSecondRotatingHeading {
+	color: white;
+	background-color: #6aa151;
+	font-size: 15px;
+	width: 120px;
+	position: relative;
+	top: -4px;
+	left: 34px;
+	padding: 1px 10px 1px 10px;
+	text-align: center;
+	transform: rotate(-22deg);
+}
+
+.dropdownLogoEruptionProjectionListItem {
+	position: absolute;
+	top: 364px;
+	left: 0px;
+	background-color: rgba(42, 84, 123, 0.8);
+	width: 42.2%;
+	border-right: 1px solid rgba(242, 241, 236, 0.5);
+	border-bottom: 1px solid rgba(242, 241, 236, 0.5);
+	text-transform: uppercase;
+	height: 195px;
+}
+
+.dropdownLogoEruptionProjectionPara {
+	text-align: center;
+	font-size: 18px;
+	color: #46b3e3;
+	line-height: 21px;
+	padding-top: 10px;
+}
+
+.dropdownLogoEruptionProjectionMonthName {
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	line-height: 0px;
+}
+
+.dropdownLogoEruptionProjectionSectionNumber {
+	font-size: 5em;
+	text-align: center;
+	color: white;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.dropdownLogoWaitTimesListItem {
+	position: absolute;
+	top: 364px;
+	left: 164px;
+	background-color: rgba(42, 84, 123, 0.8);
+	width: 43.8%;
+	border-right: 1px solid rgba(242, 241, 236, 0.5);
+	border-bottom: 1px solid rgba(242, 241, 236, 0.5);
+	text-transform: uppercase;
+	height: 195px;
+}
+
+.dropdownLogoWaitTimesPara {
+	text-align: center;
+	font-size: 18px;
+	color: #46b3e3;
+	line-height: 5px;
+	padding-top: 20px;
+}
+
+.dropdownLogoGyrosphereSlideHeading {
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+
+.dropdownLogoGyrosphereSlideNumber {
+	font-size: 5em;
+	text-align: center;
+	color: white;
+	padding-top: 0;
+	margin-top: 0;
+	line-height: 60px;
+}
+
+.dropdownLogoGyrosphereSlideMinutes {
+	text-align: center;
+	color: white;
+}
+
+.dropdownLogoEggSpinnerSlideHeading {
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+
+.dropdownLogoEggSpinnerSlideNumber {
+	font-size: 5em;
+	text-align: center;
+	color: white;
+	padding-top: 0;
+	margin-top: 0;
+	line-height: 60px;
+}
+
+.dropdownLogoEggSpinnerSlideMinutes {
+	text-align: center;
+	color: white;
+}
+
+.dropdownLogoGondolaLiftSlideHeading {
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+
+.dropdownLogoGondolaLiftSlideNumber {
+	font-size: 5em;
+	text-align: center;
+	color: white;
+	padding-top: 0;
+	margin-top: 0;
+	line-height: 60px;
+}
+
+.dropdownLogoGondolaLiftSlideMinutes {
+	text-align: center;
+	color: white;
+}
+
+.dropdownLogoCretaceousCruiseSlideHeading {
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+
+.dropdownLogoCretaceousCruiseSlideNumber {
+	font-size: 5em;
+	text-align: center;
+	color: white;
+	padding-top: 0;
+	margin-top: 0;
+	line-height: 60px;
+}
+
+.dropdownLogoCretaceousCruiseSlideMinutes {
+	text-align: center;
+	color: white;
+}
+
+.dropdownLogoGentleGiantsPettingZooSlideHeading {
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+
+.dropdownLogoGentleGiantsPettingZooSlideNumber {
+	font-size: 5em;
+	text-align: center;
+	color: white;
+	padding-top: 0;
+	margin-top: 0;
+	line-height: 60px;
+}
+
+.dropdownLogoGentleGiantsPettingZooSlideMinutes {
+	text-align: center;
+	color: white;
+}
+
+.dropdownLogoGallimimusValleySlideHeading {
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+
+.dropdownLogoGallimimusValleySlideNumber {
+	font-size: 5em;
+	text-align: center;
+	color: white;
+	padding-top: 0;
+	margin-top: 0;
+	line-height: 60px;
+}
+
+.dropdownLogoGallimimusValleySlideMinutes {
+	text-align: center;
+	color: white;
+}
+
+.dropdownLogoDidYouKnow {
+	position: absolute;
+	top: 559px;
+	left: 0px;
+	background-color: rgba(42, 84, 123, 0.8);
+	width: 86%;
+	border-right: 1px solid rgba(242, 241, 236, 0.5);
+	border-bottom: 1px solid rgba(242, 241, 236, 0.5);
+	text-transform: uppercase;
+	height: 110px;
+}
+
+.dropdownLogoDidYouKnowHeading {
+	color: #46b3e3;
+	text-align: center;
+	font-size: 17px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.dropdownLogoDidYouKnowHr {
+	border: none;
+	border: 1px solid orangered;
+	width: 40px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.dropdownANewBornBabySlidePara {
+	color: white;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+	line-height: 19px;
+}
+
+.dropdownLogoANewBornRotatingHeading {
+	color: white;
+	transform: rotate(-6deg);
+}
+
+.dropdownLogoANewBornRotatingFirstHeading {
+	background-color: #6aa151;
+	padding: 1px 5px 1px 5px;
+	position: relative;
+	top: -39px;
+	left: 60px;
+	width: 240px;
+	font-size: 13px;
+}
+
+.dropdownLogoANewBornRotatingSecondHeading {
+	background-color: #6aa151;
+	padding: 1px 5px 1px 5px;
+	position: relative;
+	top: -50px;
+	left: 50px;
+	width: 260px;
+	font-size: 13px;
+}
+
+.dropdownLogoThePlatesSlidePara {
+	color: white;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+	line-height: 19px;
+}
+
+.dropdownLogoThePlatesRotatingHeading {
+	color: white;
+	transform: rotate(-6deg);
+}
+
+.dropdownLogoThePlatesRotatingFirstHeading {
+	background-color: #6aa151;
+	padding: 1px 5px 1px 5px;
+	position: relative;
+	top: -59px;
+	left: 60px;
+	width: 240px;
+	font-size: 13px;
+}
+
+.dropdownLogoThePlatesRotatingSecondHeading {
+	background-color: #6aa151;
+	padding: 1px 5px 1px 5px;
+	position: relative;
+	top: -70px;
+	left: 50px;
+	width: 260px;
+	font-size: 13px;
+}
+
+.dropdownLogoTRexSlidePara {
+	color: white;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+	line-height: 19px;
+}
+
+.dropdownLogoTRexRotatingHeading {
+	color: white;
+	transform: rotate(-6deg);
+}
+
+.dropdownLogoTRexRotatingFirstHeading {
+	background-color: #6aa151;
+	padding: 1px 5px 1px 5px;
+	position: relative;
+	top: -44px;
+	left: 60px;
+	width: 240px;
+	font-size: 13px;
+}
+
+.dropdownLogoTRexRotatingSecondHeading {
+	background-color: #6aa151;
+	padding: 1px 5px 1px 5px;
+	position: relative;
+	top: -55px;
+	left: 50px;
+	width: 260px;
+	font-size: 13px;
+}
+
+.dropdownLogoTheApatosaurusSlidePara {
+	color: white;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+	line-height: 19px;
+}
+
+.dropdownLogoTheApatosaurusRotatingHeading {
+	color: white;
+	transform: rotate(-6deg);
+}
+
+.dropdownLogoTheApatosaurusRotatingFirstHeading {
+	background-color: #6aa151;
+	padding: 1px 5px 1px 5px;
+	position: relative;
+	top: -44px;
+	left: 60px;
+	width: 240px;
+	font-size: 13px;
+}
+
+.dropdownLogoTheApatosaurusRotatingSecondHeading {
+	background-color: #6aa151;
+	padding: 1px 5px 1px 5px;
+	position: relative;
+	top: -55px;
+	left: 50px;
+	width: 260px;
+	font-size: 13px;
+}
+
+.dropdownLogoTheStegosaurusSlidePara {
+	color: white;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+	line-height: 19px;
+}
+
+.dropdownLogoTheStegosaurusRotatingHeading {
+	color: white;
+	transform: rotate(-6deg);
+}
+
+.dropdownLogoTheStegosaurusRotatingFirstHeading {
+	background-color: #6aa151;
+	padding: 1px 5px 1px 5px;
+	position: relative;
+	top: -44px;
+	left: 60px;
+	width: 240px;
+	font-size: 13px;
+}
+
+.dropdownLogoTheStegosaurusRotatingSecondHeading {
+	background-color: #6aa151;
+	padding: 1px 5px 1px 5px;
+	position: relative;
+	top: -55px;
+	left: 50px;
+	width: 260px;
+	font-size: 13px;
+}
+
+.dropdownLogoTheRexEatSlidePara {
+	color: white;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+	line-height: 19px;
+}
+
+.dropdownLogoTheRexEatRotatingHeading {
+	color: white;
+	transform: rotate(-6deg);
+}
+
+.dropdownLogoTheRexEatRotatingFirstHeading {
+	background-color: #6aa151;
+	padding: 1px 5px 1px 5px;
+	position: relative;
+	top: -64px;
+	left: 60px;
+	width: 240px;
+	font-size: 13px;
+}
+
+.dropdownLogoTheRexEatRotatingSecondHeading {
+	background-color: #6aa151;
+	padding: 1px 5px 1px 5px;
+	position: relative;
+	top: -75px;
+	left: 50px;
+	width: 260px;
+	font-size: 13px;
+}
+
+.dropdownLogoDinosaursSlidePara {
+	color: white;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+	line-height: 19px;
+}
+
+.dropdownLogoDinosaursRotatingHeading {
+	color: white;
+	transform: rotate(-6deg);
+}
+
+.dropdownLogoDinosaursRotatingFirstHeading {
+	background-color: #6aa151;
+	padding: 1px 5px 1px 5px;
+	position: relative;
+	top: -64px;
+	left: 60px;
+	width: 240px;
+	font-size: 13px;
+}
+
+.dropdownLogoDinosaursRotatingSecondHeading {
+	background-color: #6aa151;
+	padding: 1px 5px 1px 5px;
+	position: relative;
+	top: -75px;
+	left: 50px;
+	width: 260px;
+	font-size: 13px;
+}
+
+.dropdownLogoTheGallimimusSlidePara {
+	color: white;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+	line-height: 19px;
+}
+
+.dropdownLogoTheGallimimusRotatingHeading {
+	color: white;
+	transform: rotate(-6deg);
+}
+
+.dropdownLogoTheGallimimusRotatingFirstHeading {
+	background-color: #6aa151;
+	padding: 1px 5px 1px 5px;
+	position: relative;
+	top: -64px;
+	left: 60px;
+	width: 240px;
+	font-size: 13px;
+}
+
+.dropdownLogoTheGallimimusRotatingSecondHeading {
+	background-color: #6aa151;
+	padding: 1px 5px 1px 5px;
+	position: relative;
+	top: -75px;
+	left: 50px;
+	width: 260px;
+	font-size: 13px;
+}
+
+.dropdownLogoJurassicWorldLink {
+	background-image: url('../images/visit_jurassic_world_bg.jpg');
+	width: 334px;
+	position: absolute;
+	top: 669px;
+	left: 0;
+	color: #fff;
+}
+
+.dropdownLogoJurassicWorldButtonDiv {
+	text-align: center;
+}
+
+.dropdownLogoJurassicWorldLinkButton {
+	border: 1px solid orangered;
+	background-color: #2a547b;
+	text-transform: uppercase;
+	color: white;
+	font-size: 10px;
+	cursor: pointer;
+	margin-top: 5px;
+	margin-bottom: 7px;
+}
+
+.dropdownLogoJurassicWorldLinkButton:hover {
+	background-color: orangered;
+	color: white;
+}
+
+.insta_icon,
+.twitter_icon,
+.fb_icon {
+	color: white;
+	background-color: #46b3e3;
+	border: 1px solid white;
+	text-align: center;
+	font-size: 30px !important;
+	padding-top: 10px;
+	margin-right: 0px;
+	width: 55px;
+	height: 53px;
+	float: right;
+	cursor: pointer;
+}
+
+.barsDiv{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 9999;
+}
+
+.fa-bars {
+	color: white;
+	background-color: #46b3e3;
+	position: fixed;
+	float: right;
+	top: 0;
+	right: 0;
+	font-size: 35px !important;
+	margin: 0px;
+	padding-top: 8px;
+	text-align: center;
+	width: 55px;
+	height: 53px;
+	border: 1px solid white;
+	cursor: pointer;
+}
+
+.navbarDropdownMainDiv{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 9999;
+}
+
+#list {
+	list-style: none;
+	position: fixed;
+	right: 0;
+	top: 43px;
+}
+
+#islandListItem {
+	color: #fff;
+	background-image: url('../images/island_map_bg.jpg');
+	background-size: cover;
+	border: 1px solid rgba(242, 241, 236, 0.5);
+	text-align: center;
+	margin-top: 10px;
+	width: 210px;
+	height: 220px;
+	float: left;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.island_map_icon {
+	fill: white;
+	align-items: center;
+	margin-top: 50px;
+	width: 90px;
+	height: 90px;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.island_overlay_color {
+	background-color: rgb(70, 179, 227);
+	opacity: .6;
+	width: 100%;
+	height: 100%;
+}
+
+#islandListItem:hover .island_overlay_color {
+	background-color: transparent;
+	opacity: unset;
+}
+
+#islandListItem:hover .island_map_icon {
+	transform: scale(1.1765) translateZ(0px);
+}
+
+#ticketsListItem {
+	color: rgb(255, 255, 255);
+	background-color: rgb(223, 0, 78);
+	border-bottom: 1px solid rgba(242, 241, 236, 0.5);
+	border-right: 1px solid rgba(242, 241, 236, 0.5);
+	text-align: center;
+	margin-top: 10px;
+	width: 110px;
+	height: 110px;
+	float: left;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.tickets_icon {
+	fill: white;
+	align-items: center;
+	margin-top: 6px;
+	width: 70px;
+	height: 70px;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+#ticketsListItem:hover .tickets_icon {
+	transform: scale(1.1765) translateZ(0px);
+}
+
+#ourFounderListItem {
+	color: rgb(255, 255, 255);
+	background-color: rgb(20, 151, 130);
+	border: 1px solid rgba(242, 241, 236, 0.5);
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 0;
+	margin-right: 0;
+	width: 110px;
+	height: 110px;
+	float: left;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.our_founder_icon {
+	fill: rgb(255, 255, 255);
+	align-items: center;
+	margin-top: 6px;
+	width: 70px;
+	height: 70px;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+#ourFounderListItem:hover .our_founder_icon {
+	transform: scale(1.1765) translateZ(0px);
+}
+
+#dinosaursListItem {
+	color: rgb(255, 255, 255);
+	background-color: rgb(70, 179, 227);
+	border-bottom: 1px solid rgba(242, 241, 236, 0.5);
+	border-right: 1px solid rgba(242, 241, 236, 0.5);
+	text-align: center;
+	margin-top: 3px;
+	position: relative;
+	right: 1px;
+	margin-left: 0;
+	width: 110px;
+	height: 110px;
+	float: left;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.dinosaurs_icon {
+	fill: rgb(255, 255, 255);
+	align-items: center;
+	margin-top: 6px;
+	width: 70px;
+	height: 70px;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+#dinosaursListItem:hover .dinosaurs_icon {
+	transform: scale(1.1765) translateZ(0px);
+}
+
+#planYourVisitListItem {
+	color: rgb(255, 255, 255);
+	background-image: url('../images/plan_your_visit_bg.jpg');
+	background-size: cover;
+	text-align: center;
+	margin-right: 55px;
+	margin-top: 10px;
+	width: 210px;
+	height: 220px;
+	float: right;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.plan_your_visit_icon {
+	fill: white;
+	align-items: center;
+	margin-top: 50px;
+	width: 90px;
+	height: 90px;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.plan_your_visit_overlay_color {
+	background-color: #f16d2a;
+	opacity: .6;
+	width: 100%;
+	height: 100%;
+}
+
+#planYourVisitListItem:hover .plan_your_visit_overlay_color {
+	background-color: transparent;
+	opacity: unset;
+}
+
+#planYourVisitListItem:hover .plan_your_visit_icon {
+	transform: scale(1.1765) translateZ(0px);
+}
+
+.dpgHeading {
+	background-color: #6aa151;
+	transform: rotate(-15deg);
+	opacity: unset;
+	margin-top: -85px;
+	margin-left: 20px;
+	width: 80%;
+}
+
+#theMovieListItem {
+	color: rgb(255, 255, 255);
+	background-color: rgb(20, 151, 130);
+	border-bottom: 1px solid rgba(242, 241, 236, 0.5);
+	border-right: 1px solid rgba(242, 241, 236, 0.5);
+	text-align: center;
+	margin-top: 10px;
+	width: 110px;
+	height: 110px;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: block !important;
+	position: absolute;
+	top: 220px;
+	left: 141px;
+	border-top: none;
+}
+
+.the_movie_icon {
+	fill: rgb(255, 255, 255);
+	align-items: center;
+	margin-top: 6px;
+	width: 70px;
+	height: 70px;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+#theMovieListItem:hover .the_movie_icon {
+	transform: scale(1.1765) translateZ(0px);
+}
+
+#safetyFirstListItem {
+	color: rgb(255, 255, 255);
+	background-color: rgb(223, 0, 78);
+	border-bottom: 1px solid rgba(242, 241, 236, 0.5);
+	border-right: 1px solid rgba(242, 241, 236, 0.5);
+	text-align: center;
+	margin-top: 10px;
+	width: 110px;
+	height: 110px;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: block !important;
+	position: absolute;
+	top: 220px;
+	left: 251px;
+	border-top: none;
+}
+
+.safety_first_icon {
+	fill: rgb(255, 255, 255);
+	align-items: center;
+	margin-top: 6px;
+	width: 70px;
+	height: 70px;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+#safetyFirstListItem:hover .safety_first_icon {
+	transform: scale(1.1765) translateZ(0px);
+}
+
+#saveTheDinosListItem {
+	color: rgb(255, 255, 255);
+	background-image: url('../images/save_the_dinos_logo.png');
+	background-size: cover;
+	border-bottom: 1px solid rgba(242, 241, 236, 0.5);
+	border-right: 1px solid rgba(242, 241, 236, 0.5);
+	text-align: center;
+	margin-top: 10px;
+	width: 110px;
+	height: 110px;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: block !important;
+	position: absolute;
+	top: 220px;
+	left: 361px;
+	border-top: none;
+}
+
+#islandCamListItem {
+	color: rgb(255, 255, 255);
+	background-color: rgb(70, 179, 227);
+	border-bottom: 1px solid rgba(242, 241, 236, 0.5);
+	border-right: 1px solid rgba(242, 241, 236, 0.5);
+	text-align: center;
+	margin-top: 10px;
+	width: 110px;
+	height: 110px;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: block !important;
+	position: absolute;
+	top: 220px;
+	right: 55px;
+	border-top: none;
+}
+
+.island_cam_icon {
+	fill: rgb(255, 255, 255);
+	align-items: center;
+	margin-top: 6px;
+	width: 70px;
+	height: 70px;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+#islandCamListItem:hover .island_cam_icon {
+	transform: scale(1.1765) translateZ(0px);
+}
+
+#creationLabListItem {
+	color: rgb(255, 255, 255);
+	background-color: rgb(241, 109, 42);
+	border-bottom: 1px solid rgba(242, 241, 236, 0.5);
+	border-right: 1px solid rgba(242, 241, 236, 0.5);
+	text-align: center;
+	margin-top: 10px;
+	width: 110px;
+	height: 110px;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: block !important;
+	position: absolute;
+	top: 330px;
+	left: 251px;
+	border-top: none;
+}
+
+.creation_lab_icon {
+	fill: rgb(255, 255, 255);
+	align-items: center;
+	margin-top: 6px;
+	width: 70px;
+	height: 70px;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+#creationLabListItem:hover .creation_lab_icon {
+	transform: scale(1.1765) translateZ(0px);
+}
+
+#masraniListItem {
+	color: rgb(255, 255, 255);
+	background-color: rgb(70, 179, 227);
+	border-bottom: 1px solid rgba(242, 241, 236, 0.5);
+	border-right: 1px solid rgba(242, 241, 236, 0.5);
+	text-align: center;
+	margin-top: 10px;
+	width: 110px;
+	height: 110px;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: block !important;
+	position: absolute;
+	top: 440px;
+	left: 251px;
+	border-top: none;
+}
+
+.masrani_icon {
+	fill: rgb(255, 255, 255);
+	align-items: center;
+	margin-top: 6px;
+	width: 70px;
+	height: 70px;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+#masraniListItem:hover .masrani_icon {
+	transform: scale(1.1765) translateZ(0px);
+}
+
+#raptorPassListItem {
+	color: #fff;
+	fill: #fff;
+	background-image: url('../images/raptor_pass_bg.jpg');
+	background-size: cover;
+	border: 1px solid rgba(242, 241, 236, 0.5);
+	text-align: center;
+	margin-top: 10px;
+	width: 210px;
+	height: 220px;
+	position: absolute;
+	top: 330px;
+	left: 361px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.raptor_pass_icon {
+	align-items: center;
+	margin-top: 50px;
+	width: 90px;
+	height: 90px;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.raptor_pass_overlay_color {
+	background-color: rgb(20, 151, 130);
+	opacity: .6;
+	width: 100%;
+	height: 100%;
+}
+
+#raptorPassListItem:hover .raptor_pass_overlay_color {
+	background-color: transparent;
+	opacity: unset;
+}
+
+#raptorPassListItem:hover .raptor_pass_icon {
+	transform: scale(1.1765) translateZ(0px);
+}
+
+#newsFeedListItem {
+	color: rgb(255, 255, 255);
+	background-color: #df004e;
+	border-bottom: 1px solid rgba(242, 241, 236, 0.5);
+	border-right: 1px solid rgba(242, 241, 236, 0.5);
+	text-align: center;
+	margin-top: 10px;
+	width: 110px;
+	height: 110px;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: block !important;
+	position: absolute;
+	top: 330px;
+	right: 55px;
+	border-top: none;
+}
+
+.news_feed_icon {
+	fill: rgb(255, 255, 255);
+	align-items: center;
+	margin-top: 6px;
+	width: 70px;
+	height: 70px;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+#newsFeedListItem:hover .news_feed_icon {
+	transform: scale(1.1765) translateZ(0px);
+}
+
+#supportTheDpgListItem {
+	color: rgb(255, 255, 255);
+	background-image: url('../images/support_the_dpg_logo.png');
+	background-size: cover;
+	border-bottom: 1px solid rgba(242, 241, 236, 0.5);
+	border-right: 1px solid rgba(242, 241, 236, 0.5);
+	margin-top: 10px;
+	width: 110px;
+	height: 110px;
+	cursor: pointer;
+	display: block !important;
+	position: absolute;
+	top: 440px;
+	right: 55px;
+	border-top: none;
+}
+
+.topBgImg{ 
+ height: auto;
+ width: 100%; 
+}
+
+.audianceBgImg{
+	background-image: url('../images/audience.jpg');	
+	background-size: cover;
+    background-repeat: no-repeat;	    
+	background-color: black;
+}
+
+.audianceHeading{
+    font-size: 5.4vw;
+    color: white;        
+	padding-top: 5vw;	
+	text-align: center; 
+	text-transform: uppercase;   
+}
+
+.audiancePara{
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-size: 1.5vw;
+	line-height: 20px;
+}
+
+.audianceButtonDiv{
+    text-align: center;
+	color: white; 
+	padding-bottom: 5vw;
+}
+
+.audianceButton{
+	background-color: white;
+	border: 1px solid orangered;
+	text-transform: uppercase;
+	padding: 3px 20px 3px 20px;
+}
+
+.audianceOverlay{
+	background-color: rgba(57, 87, 44, 0.5);
+	position: absolute;	
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.audianceFirstRotatedPara{
+	text-align: center;
+	color: white;
+	font-size: 55px;
+	background-color: rgb(106, 161, 81);
+	transform: rotate(-12deg);
+	margin-top: 6.5vw;
+	line-height: 1.1em;
+	width: 470px;	
+	margin-left: auto;
+	margin-right: auto;
+	display: block;	
+	text-transform: uppercase;
+}
+.audianceSecondRotatedPara{
+	text-align: center;
+	color: white;
+	font-size: 55px;
+	background-color: rgb(106, 161, 81);
+	transform: rotate(-12deg);	
+	line-height: 1.1em;
+	width: 470px;	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -9px;
+	display: block;	
+	text-transform: uppercase;
+}
+
+@media screen and (max-width: 763px) {
+	body {
+		margin-left: 0;
+		margin-right: 0;
+		padding-right: 0;
+		padding-left: 0;
+	}
+	#list {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		overflow-y: scroll;
+		scroll-behavior: smooth;
+		margin-bottom: 500px;
+	}
+	#list::-webkit-scrollbar {
+		width: 0px;
+		background: transparent;
+	}
+	#list::-webkit-scrollbar-track {
+		background: white;
+	}
+	#list::-webkit-scrollbar-thumb {
+		background: white;
+	}
+	#islandListItem {
+		display: block;
+		margin: 0;
+		padding: 0;
+		margin-top: 10px;
+		width: 100%;
+	}
+	#ticketsListItem {
+		display: block;
+		width: 50%;
+		margin: 0;
+		padding: 0;
+	}
+	#ourFounderListItem {
+		display: block;
+		width: 50%;
+		margin: 0;
+		padding: 0;
+	}
+	#planYourVisitListItem {
+		display: block;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	#theMovieListItem {
+		display: block;
+		width: 50%;
+		margin: 0;
+		padding: 0;
+		margin-top: 340px;
+		left: 0;
+		right: 0;
+	}
+	#dinosaursListItem {
+		display: block;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		margin-top: 224px;
+		position: relative;
+		left: 0;
+		right: 0;
+	}
+	#safetyFirstListItem {
+		display: block;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		margin-top: 450px;
+		left: 0;
+	}
+	#saveTheDinosListItem {
+		display: block;
+		width: 50%;
+		margin: 0;
+		padding: 0;
+		margin-top: 560px;
+		left: 0;
+	}
+	#islandCamListItem {
+		display: block;
+		width: 50%;
+		margin: 0;
+		padding: 0;
+		margin-top: 560px;
+		right: 0;
+	}
+	#raptorPassListItem {
+		display: block;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		margin-top: 560px;
+		right: 0;
+		left: 0;
+	}
+	#creationLabListItem {
+		position: absolute !important;
+		display: block;
+		width: 50%;
+		margin: 0;
+		padding: 0;
+		margin-top: 780px;
+		right: 0;
+		left: 0;
+	}
+	#masraniListItem {
+		position: absolute !important;
+		display: block;
+		width: 50%;
+		margin: 0;
+		padding: 0;
+		margin-top: 670px;
+		right: 0;
+		left: 50%;
+	}
+	#newsFeedListItem {
+		display: block;
+		width: 50%;
+		margin: 0;
+		padding: 0;
+		margin-top: 890px;
+		right: 0;
+		left: 0;
+	}
+	#supportTheDpgListItem {
+		position: absolute;
+		display: block;
+		width: 50%;
+		margin: 0;
+		top: 1220px;
+		right: 0;
+		left: 50%;
+	}
+	#logodropdown {
+		width: 100%;
+		height: 100%;
+		overflow: scroll;
+	}
+	#logodropdown::-webkit-scrollbar {
+		width: 0px;
+	}
+	.dropdownLogoListItem {
+		display: block;
+		width: 100%;
+		height: 200px;
+		margin: 0;
+		padding: 0;
+		left: 0px;
+		right: 0px;
+	}
+	.dropdownLogo {
+		width: 400px;
+		height: 200px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.dropdownRigtSideLogoListItem {
+		margin: 0;
+		padding: 0;
+	}
+	.dpg_logo {
+		position: absolute;
+		left: 0px;
+		width: 100%;
+		height: 300px;
+		display: block;
+		border-right: none;
+		margin: 0;
+		padding: 0;
+		top: 200px;
+	}
+	.dropdownLogoIconsListItem {
+		position: absolute;
+		top: 500px;
+		left: 0px;
+		right: 0px;
+		width: 100%;
+	}
+	.dropdownLogoAlertListItem {
+		position: absolute;
+		left: 0px;
+		top: 554px;
+		width: 50%;
+	}
+	.dropdownLogoSliderListItem {
+		position: absolute;
+		right: 0px;
+		top: 554px;
+		width: 50%;
+	}
+	.dropdownLogoEruptionProjectionListItem {
+		position: absolute;
+		left: 0px;
+		top: 749px;
+		width: 50%;
+	}
+	.dropdownLogoWaitTimesListItem {
+		position: absolute;
+		left: 50%;
+		top: 749px;
+		width: 50%;
+	}
+	.dropdownLogoDidYouKnow {
+		top: 944px;
+		left: 0;
+		right: 0;
+		width: 100%;
+	}
+	.dropdownLogoJurassicWorldLink {
+		background-image: url('../images/visit_jurassic_world_bg.jpg');
+		width: 100%;
+		position: absolute;
+		top: 1054px;
+		left: 0;
+		right: 0;
+		color: #fff;
+	}
+}
+
+.bouncingBabySection{
+	background-color: rgb(42, 84, 123);
+	color: white;
+	text-align: center;
+	width: 100%;	
+	fill: currentColor;	
+	padding-top: 5vw;
+	padding-bottom: 4vw;
+}
+
+.bouncingHeading{
+	font-size: 2em;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	text-transform: uppercase;
+}
+
+.bouncingPara{
+	font-size: 1.3em;
+	padding-top: 0px;
+	line-height: 27px;
+	width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.familyEatingImg{
+	padding: 0; 
+	margin: 0; 
+	background-image: url('../images/family_eating.jpg'); 
+	background-size: 100% 100%; 
+	background-position: center center; 
+	background-repeat: no-repeat;
+	margin: 0; 
+	padding-top: 20em; 	
+}
+
+.hexagonSvg{
+	width: 50px; 
+	height: 50px; 
+	position: absolute; 
+	top: 3px; left: 
+	3px; 
+	fill: white;
+}
+
+.familyEatinginstaSvg{
+	position: absolute; 
+	top: 15px; 
+	left: 16px; 
+	width: 25px; 
+	height: 25px; 
+	fill: #2a547b;
+}
+
+
+.kidsAtStreetImg{
+	padding: 0; 
+	padding-top: 20em; 
+	margin: 0; 
+	background-image: url('../images/kids_on_street.jpg'); 
+	background-size: 100% 100%; 
+	background-position: center center; 		
+	background-repeat: no-repeat;
+}
+
+.kidsAtStreetFbSvg{
+	position: absolute; 
+	top: 15px; 
+	left: 16px; 
+	width: 25px; 
+	height: 25px; 
+	fill: #2a547b;
+}
+
+@media screen and (max-width: 425px){
+	.bouncingPara{		
+		width: 90%;		
+	}
+}
+
+@media screen and (max-width: 698px) {	
+	.audianceFirstRotatedPara{
+		margin-top: 4vw;
+	}
+	.audianceFirstRotatedPara, .audianceSecondRotatedPara{
+		font-size: 4vw !important;		
+		width: 250px !important;
+		line-height: 35px;
+	}	
+}
+
+@media screen and (max-width: 717px) {	
+	.audianceFirstRotatedPara{
+		margin-top: 6vw !important;
+	}
+	.audianceSecondRotatedPara{
+		margin-top: -0.5rem !important;
+	}
+	.audianceFirstRotatedPara, .audianceSecondRotatedPara{
+		font-size: 4vw !important;		
+		line-height: 1.5em !important;
+		width: 40vw !important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.audiancePara{
+		font-size: 3vw;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.bouncingPara{		
+		width: 90%;		
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.audianceFirstRotatedPara{
+		margin-top: 4vw;
+	}
+
+	.audianceFirstRotatedPara, .audianceSecondRotatedPara{
+		font-size: 40px;
+		width: 360px;
+	}
+}
+
+@media screen and (max-width: 1079px) {
+	.audianceFirstRotatedPara, .audianceSecondRotatedPara{
+		font-size: 40px;
+		width: 360px;
+	}
+}
+
+@media screen and (max-width: 1432px) {
+	.insta_icon,
+	.twitter_icon,
+	.fb_icon {
+		display: none !important;
+	}
+}
