@@ -51,6 +51,7 @@ body {
 	position: fixed;
 	top: 0;
 	list-style: none;
+	display: none;
 }
 
 .dropdownLogoListItem {
@@ -980,6 +981,7 @@ body {
 	position: fixed;
 	right: 0;
 	top: 43px;
+	display: none;
 }
 
 #islandListItem {
@@ -1466,33 +1468,380 @@ body {
 	height: 100%;
 }
 
-.audianceFirstRotatedPara{
-	text-align: center;
+#audianceFirstRotatedPara{	
+	position: absolute; 
+	top: 6vw; 
+	left: 35%; 
+	font-size: 3.2vw; 
+	line-height: 1.15; 
+	white-space: nowrap;
 	color: white;
-	font-size: 55px;
-	background-color: rgb(106, 161, 81);
-	transform: rotate(-12deg);
-	margin-top: 6.5vw;
-	line-height: 1.1em;
-	width: 470px;	
-	margin-left: auto;
-	margin-right: auto;
-	display: block;	
+	text-transform: uppercase;
+	font-weight: 700;
+	background-color:  rgb(106, 161, 81); 	
+	transform: rotate(-10deg); 
+	padding-left: 10px; 
+	padding-right: 10px; 
+	margin: 0;
+}
+
+#audianceSecondRotatedPara{
+	position: absolute; 
+	top: 9.7vw; 
+	left: 35%; 
+	font-size: 3.2vw; 
+	line-height: 1.15; 
+	white-space: nowrap;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	background-color: rgb(106, 161, 81); 
+	margin: 0; 
+	margin-top: 5px;	
+	transform: rotate(-10deg); 
+	padding-left: 10px; 
+	padding-right: 10px; 		
+}
+
+.bouncingBabySection{
+	background-color: rgb(42, 84, 123);
+	color: white;
+	text-align: center;
+	width: 100%;	
+	fill: currentColor;	
+	height: 100%;
+	padding-top: 4vw;
+	padding-bottom: 4vw;
+}
+
+.bouncingHeading{
+	font-size: 2em;
+	padding-top: 10px;
+	padding-bottom: 0px;
 	text-transform: uppercase;
 }
-.audianceSecondRotatedPara{
-	text-align: center;
-	color: white;
-	font-size: 55px;
-	background-color: rgb(106, 161, 81);
-	transform: rotate(-12deg);	
-	line-height: 1.1em;
-	width: 470px;	
+
+.bouncingPara{
+	font-size: 1.3em;
+    font-weight: 200;
+	line-height: 27px;
+	width: 70%;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: -9px;
-	display: block;	
+}
+
+.familyEatingImg{
+	padding: 0; 
+	margin: 0; 
+	background-image: url('../images/family_eating.jpg'); 
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+	display: flex;	
+	margin: 0; 
+	padding-top: 20em;	
+}
+
+.familyEatingImg:hover .familyEatingImgOverlay{
+	background-color: #46b3e3;	
+	opacity: .6;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	cursor: pointer;
+}
+
+.hexagonSvg{
+	width: 50px; 
+	height: 50px; 
+	position: absolute; 
+	top: 3px; 
+	left: 3px; 
+	fill: white;
+}
+
+.familyEatinginstaSvg{
+	position: absolute; 
+	top: 15px; 
+	left: 16px; 
+	width: 25px; 
+	height: 25px; 
+	fill: #2a547b;
+}
+
+
+.kidsAtStreetImg{
+	padding: 0; 
+	padding-top: 20em; 
+	margin: 0; 
+	background-image: url('../images/kids_on_street.jpg'); 
+	background-size: 100% 100%; 
+	background-position: center center; 		
+	background-repeat: no-repeat;
+	display: flex;
+}
+
+.kidsAtStreetImg:hover .kidsAtStreetImgOverlay{
+	background-color: #46b3e3;	
+	opacity: .6;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	cursor: pointer;	
+}
+
+.kidsAtStreetFbSvg{
+	position: absolute; 
+	top: 15px; 
+	left: 16px; 
+	width: 25px; 
+	height: 25px; 
+	fill: #2a547b;
+}
+
+.peopleAtParkBgImg{
+	background-image: url('../images/people_at_park.jpg');	
+	background-size: cover;
+    background-repeat: no-repeat;	    
+	background-color: black;
+}
+
+.peopleAtParkSmallHeading{
+	font-size: 2.7vw;
+	letter-spacing: .1em;
+	text-transform: capitalize;
+	color: white;
+	text-align: center;
+	padding-top: 5vw;
+}
+
+.peopleAtParkHeading{
+    font-size: 6.5vw;
+    color: white;        	
+	text-align: center; 
+	text-transform: uppercase;   
+	line-height: 1em;
+}
+
+.peopleAtParkPara{
+	text-align: center;
+	color: white;
+	text-transform: capitalize;
+	font-size: 2vw;
+	line-height: 5px;	
+}
+
+.peopleAtParkButtonDiv{
+    text-align: center;
+	color: white; 
+	padding-top: 5vw;
+	padding-bottom: 2vw;
+}
+
+.peopleAtParkButton{
+	background-color: white;
+	border: 1px solid orangered;
 	text-transform: uppercase;
+	padding: 3px 20px 3px 20px;
+}
+
+.peopleAtParkOverlay{
+	background-color: rgba(57, 87, 44, 0.5);
+	position: absolute;	
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#peopleAtParkFirstRotatedPara{	
+	position: absolute; 
+	top: 9vw; 
+	left: 25%; 
+	font-size: 3.2vw; 
+	line-height: 1.15; 
+	white-space: nowrap;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	background-color:  rgb(106, 161, 81); 	
+	transform: rotate(-10deg); 
+	padding-left: 10px; 
+	padding-right: 10px; 
+	margin: 0;
+}
+
+#peopleAtParkSecondRotatedPara{
+	position: absolute; 
+	top: 12.7vw; 
+	left: 35%; 
+	font-size: 3.2vw; 
+	line-height: 1.15; 
+	white-space: nowrap;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	background-color: rgb(106, 161, 81); 
+	margin: 0; 
+	margin-top: 5px;	
+	transform: rotate(-10deg); 
+	padding-left: 10px; 
+	padding-right: 10px; 		
+}
+
+.peopleBoatingImg{
+	padding: 0; 
+	margin: 0; 
+	background-image: url('../images/people_boating.jpg'); 
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+	display: flex;	
+	margin: 0; 
+	padding-top: 20em;	
+}
+
+.peopleBoatingImg:hover .peopleBoatingImgOverlay{
+	background-color: #46b3e3;	
+	opacity: .6;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	cursor: pointer;
+}
+
+.familyWithKidInDinosaurseHatImg{
+	padding: 0; 
+	padding-top: 20em; 
+	margin: 0; 
+	background-image: url('../images/family_with_kid_in_dinosaurse_hat.jpg'); 
+	background-size: 100% 100%; 
+	background-position: center center; 		
+	background-repeat: no-repeat;
+	display: flex;
+}
+
+.familyWithKidInDinosaurseHatImg:hover .familyWithKidInDinosaurseHatImgOverlay{
+	background-color: #46b3e3;	
+	opacity: .6;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	cursor: pointer;
+}
+
+.dinosaurseEnergyDrinkSection{
+	background-color: rgb(42, 84, 123);
+	color: white;
+	text-align: center;
+	width: 100%;	
+	fill: currentColor;	
+	height: 100%;
+	padding-top: 4vw;
+	padding-bottom: 4vw;
+}
+
+.dinosaurseEnergyDrinkHeading{
+	font-size: 2em;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	text-transform: uppercase;
+}
+
+.dinosaurseEnergyDrinkPara{
+	font-size: 1.3em;
+    font-weight: 200;
+	line-height: 27px;
+	width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mikeAndIkeBgImg{
+	background-image: url('../images/mike_and_ike.jpg');	
+	background-size: cover;
+    background-repeat: no-repeat;	    
+	background-color: black;
+}
+
+.mikeAndIkePara{
+	text-align: center;
+	color: white;
+	text-transform: capitalize;
+	font-size: 2vw;	
+    padding-top: 11vw;
+	padding-left: 30px;
+	width: 50%;
+}
+
+.mikeAndIkeButtonDiv{
+    text-align: center;
+	color: white; 
+	padding-top: 5vw;
+	padding-bottom: 2vw;
+}
+
+.mikeAndIkeButton{
+	background-color: white;
+	border: 1px solid orangered;
+	text-transform: uppercase;
+	padding: 3px 20px 3px 20px;
+}
+
+.mikeAndIkeOverlay{
+	background-color: rgba(57, 87, 44, 0.5);
+	position: absolute;	
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#mikeAndIkeFirstRotatedPara{	
+	position: absolute; 
+	top: 9vw; 
+	left: 32%; 
+	font-size: 3.2vw; 
+	line-height: 1.15; 
+	white-space: nowrap;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	background-color:  rgb(106, 161, 81); 	
+	transform: rotate(-10deg); 
+	padding-left: 10px; 
+	padding-right: 10px; 
+	margin: 0;
+}
+
+#mikeAndIkeSecondRotatedPara{
+	position: absolute; 
+	top: 12.7vw; 
+	left: 35%; 
+	font-size: 3.2vw; 
+	line-height: 1.15; 
+	white-space: nowrap;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	background-color: rgb(106, 161, 81); 
+	margin: 0; 
+	margin-top: 5px;	
+	transform: rotate(-10deg); 
+	padding-left: 10px; 
+	padding-right: 10px; 		
+}
+
+@media screen and (max-width: 360px) {
+	.jurassicWorldLogo{
+		width: 150px;		
+	}
 }
 
 @media screen and (max-width: 763px) {
@@ -1723,141 +2072,94 @@ body {
 	}
 }
 
-.bouncingBabySection{
-	background-color: rgb(42, 84, 123);
-	color: white;
-	text-align: center;
-	width: 100%;	
-	fill: currentColor;	
-	padding-top: 5vw;
-	padding-bottom: 4vw;
+@media screen and (max-width: 800px) {	
+	#audianceFirstRotatedPara{
+		top: 4vw;
+		left: 28%;
+		font-size: 5vw;
+	}
+	#audianceSecondRotatedPara{
+		top: 9.6vw;
+		left: 28%;
+		font-size: 5vw;
+	}			
 }
 
-.bouncingHeading{
-	font-size: 2em;
-	padding-top: 10px;
-	padding-bottom: 0px;
-	text-transform: uppercase;
-}
-
-.bouncingPara{
-	font-size: 1.3em;
-	padding-top: 0px;
-	line-height: 27px;
-	width: 70%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.familyEatingImg{
-	padding: 0; 
-	margin: 0; 
-	background-image: url('../images/family_eating.jpg'); 
-	background-size: 100% 100%; 
-	background-position: center center; 
-	background-repeat: no-repeat;
-	margin: 0; 
-	padding-top: 20em; 	
-}
-
-.hexagonSvg{
-	width: 50px; 
-	height: 50px; 
-	position: absolute; 
-	top: 3px; left: 
-	3px; 
-	fill: white;
-}
-
-.familyEatinginstaSvg{
-	position: absolute; 
-	top: 15px; 
-	left: 16px; 
-	width: 25px; 
-	height: 25px; 
-	fill: #2a547b;
-}
-
-
-.kidsAtStreetImg{
-	padding: 0; 
-	padding-top: 20em; 
-	margin: 0; 
-	background-image: url('../images/kids_on_street.jpg'); 
-	background-size: 100% 100%; 
-	background-position: center center; 		
-	background-repeat: no-repeat;
-}
-
-.kidsAtStreetFbSvg{
-	position: absolute; 
-	top: 15px; 
-	left: 16px; 
-	width: 25px; 
-	height: 25px; 
-	fill: #2a547b;
+@media screen and (max-width: 767px) {
+	.mikeAndIkeBgImg{
+		background-image: url('../images/mike_and_ike_mobile.jpg');	
+		background-size: cover;
+		background-repeat: no-repeat;	    
+		background-color: black;
+	}
+	.mikeAndIkePara{
+		width: 100%;
+		font-size: 3.2vw;
+		padding-top: 24vw;
+	}
+	.mikeAndIkeButtonDiv{
+		padding-top: 14.7vw;
+	}
+	#mikeAndIkeFirstRotatedPara{
+		font-size: 5.5vw;
+		top: 22vw;
+		left: 20vw;
+	}
+	#mikeAndIkeSecondRotatedPara{
+		font-size: 5.5vw;
+		top: 28.5vw;
+		left: 25vw;
+	}	
 }
 
 @media screen and (max-width: 425px){
 	.bouncingPara{		
 		width: 90%;		
 	}
-}
-
-@media screen and (max-width: 698px) {	
-	.audianceFirstRotatedPara{
-		margin-top: 4vw;
+	#audianceFirstRotatedPara{
+		top: 7vw;	
 	}
-	.audianceFirstRotatedPara, .audianceSecondRotatedPara{
-		font-size: 4vw !important;		
-		width: 250px !important;
-		line-height: 35px;
+	#audianceSecondRotatedPara{
+		top: 12.2vw;				
+	}	
+	#mikeAndIkeRotatedPara{
+		top: 7vw;	
+	}
+	#mikeAndIkeRotatedPara{
+		top: 12.2vw;				
 	}	
 }
 
-@media screen and (max-width: 717px) {	
-	.audianceFirstRotatedPara{
-		margin-top: 6vw !important;
+@media screen and (max-width: 991px) {
+	.peopleAtParkBgImg{
+		background-image: url('../images/people_at_park_mobile.jpg');	
+		background-size: cover;
+		background-repeat: no-repeat;	    
+		background-color: black;
 	}
-	.audianceSecondRotatedPara{
-		margin-top: -0.5rem !important;
+	.peopleAtParkSmallHeading{
+		padding-top: 20vw;
+		font-size: 3.5vw;
+	}	
+	.peopleAtParkHeading{
+		font-size: 9vw;
 	}
-	.audianceFirstRotatedPara, .audianceSecondRotatedPara{
-		font-size: 4vw !important;		
-		line-height: 1.5em !important;
-		width: 40vw !important;
-	}
-}
-
-@media screen and (max-width: 768px) {
-	.audiancePara{
+	.peopleAtParkPara{
 		font-size: 3vw;
 	}
-}
-
-@media screen and (max-width: 991px) {
-	.bouncingPara{		
-		width: 90%;		
+	#peopleAtParkFirstRotatedPara{
+		font-size: 5.5vw;
+		top: 23vw;
+		left: 12vw;
 	}
-}
-
-@media screen and (max-width: 950px) {
-	.audianceFirstRotatedPara{
-		margin-top: 4vw;
+	#peopleAtParkSecondRotatedPara{
+		font-size: 5.5vw;
+		top: 29.7vw;
+		left: 28vw;
 	}
-
-	.audianceFirstRotatedPara, .audianceSecondRotatedPara{
-		font-size: 40px;
-		width: 360px;
-	}
-}
-
-@media screen and (max-width: 1079px) {
-	.audianceFirstRotatedPara, .audianceSecondRotatedPara{
-		font-size: 40px;
-		width: 360px;
-	}
+	.peopleAtParkButtonDiv{
+		padding-top: 11vw;
+	}	
 }
 
 @media screen and (max-width: 1432px) {
