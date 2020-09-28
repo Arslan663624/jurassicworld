@@ -1838,6 +1838,113 @@ body {
 	padding-right: 10px; 		
 }
 
+.asHungryAsADinosaurseSection{
+	background-color: rgb(42, 84, 123);
+	color: white;
+	text-align: center;
+	width: 100%;	
+	fill: currentColor;	
+	height: 100%;
+	padding-top: 4vw;
+	padding-bottom: 4vw;
+}
+
+.asHungryAsADinosaurseHeading{
+	font-size: 2em;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	text-transform: uppercase;
+}
+
+.asHungryAsADinosaursePara{
+	font-size: 1.3em;
+    font-weight: 200;
+	line-height: 27px;
+	width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.capWithDinosaurseLogoImg{
+	padding: 0; 
+	margin: 0; 
+	background-image: url('../images/cap_with_dinosaurse_logo.jpg'); 
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+	display: flex;	
+	margin: 0; 
+	padding-top: 20em;	
+}
+
+.capWithDinosaurseLogoImg:hover .capWithDinosaurseLogoImgOverlay{
+	background-color: #46b3e3;	
+	opacity: .6;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	cursor: pointer;
+}
+
+.womenWithMapImg{
+	padding: 0; 
+	padding-top: 20em; 
+	margin: 0; 
+	background-image: url('../images/women_with_map.jpg'); 
+	background-size: 100% 100%; 
+	background-position: center center; 		
+	background-repeat: no-repeat;
+	display: flex;
+}
+
+.womenWithMapImg:hover .womenWithMapImgOverlay{
+	background-color: #46b3e3;	
+	opacity: .6;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	cursor: pointer;
+}
+
+.dinosaurseMonochromeWithTextBgImg{
+	background-image: url('../images/dinosurse_monochrome_with_text_tshirts.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.dinosaurseMonochromeWithTextImgOverlay{
+	background-color: rgba(57, 87, 44, 0.5);
+	position: absolute;	
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.dinosaurseMonochromeWithTextImgPara{
+	color: white;
+	text-align: center;
+	padding-top: 21vw;
+	font-size: 2vw;
+	padding-bottom: 0px;
+}
+
+.dinosaurseMonochromeWithTextImgButtonDiv{
+	text-align: center;
+	padding-bottom: 15px;
+}
+.dinosaurseMonochromeWithTextImgButton{
+    background-color: white;
+	border: 1px solid orangered;
+	text-transform: uppercase;
+	padding: 3px 20px 3px 20px;	
+}
+
 @media screen and (max-width: 360px) {
 	.jurassicWorldLogo{
 		width: 150px;		
@@ -2131,12 +2238,12 @@ body {
 	#peopleAtParkFirstRotatedPara{
 		font-size: 5.5vw;
 		top: 25vw;
-		left: 4vw !important;
+		left: 4vw;
 	}
 	#peopleAtParkSecondRotatedPara{
 		font-size: 5.5vw;
 		top: 31.7vw;
-		left: 16vw !important;
+		left: 16vw;
 	}
 }
 
