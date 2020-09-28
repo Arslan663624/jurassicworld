@@ -2131,12 +2131,12 @@ body {
 	#peopleAtParkFirstRotatedPara{
 		font-size: 5.5vw;
 		top: 23vw;
-		left: 4vw !important;
+		left: 0vw !important;
 	}
 	#peopleAtParkSecondRotatedPara{
 		font-size: 5.5vw;
 		top: 29.7vw;
-		left: 16vw !important;
+		left: 0vw !important;
 	}
 }
 
