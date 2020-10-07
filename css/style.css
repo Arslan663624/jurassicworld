@@ -91,7 +91,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-image: url('../images/logo_bg.png');
-	background-size: cover;
+	background-size: 100% 100%;
 	border-bottom: 1px solid rgba(242, 241, 236, 0.5);
 }
 
@@ -1019,7 +1019,7 @@ body {
 #islandListItem {
 	color: #fff;
 	background-image: url('../images/island_map_bg.jpg');
-	background-size: cover;
+	background-size: 100% 100%;
 	border: 1px solid rgba(242, 241, 236, 0.5);
 	text-align: center;
 	margin-top: 10px;
@@ -1143,7 +1143,7 @@ body {
 #planYourVisitListItem {
 	color: rgb(255, 255, 255);
 	background-image: url('../images/plan_your_visit_bg.jpg');
-	background-size: cover;
+	background-size: 100% 100%;
 	text-align: center;
 	margin-right: 55px;
 	margin-top: 10px;
@@ -1253,7 +1253,7 @@ body {
 #saveTheDinosListItem {
 	color: rgb(255, 255, 255);
 	background-image: url('../images/save_the_dinos_logo.png');
-	background-size: cover;
+	background-size: 100% 100%;
 	border-bottom: 1px solid rgba(242, 241, 236, 0.5);
 	border-right: 1px solid rgba(242, 241, 236, 0.5);
 	text-align: center;
@@ -1366,7 +1366,7 @@ body {
 	color: #fff;
 	fill: #fff;
 	background-image: url('../images/raptor_pass_bg.jpg');
-	background-size: cover;
+	background-size: 100% 100%;
 	border: 1px solid rgba(242, 241, 236, 0.5);
 	text-align: center;
 	margin-top: 10px;
@@ -1437,7 +1437,7 @@ body {
 #supportTheDpgListItem {
 	color: rgb(255, 255, 255);
 	background-image: url('../images/support_the_dpg_logo.png');
-	background-size: cover;
+	background-size: 100% 100%;
 	border-bottom: 1px solid rgba(242, 241, 236, 0.5);
 	border-right: 1px solid rgba(242, 241, 236, 0.5);
 	margin-top: 10px;
@@ -1697,9 +1697,11 @@ body {
 
 .audianceBgImg {
 	background-image: url('../images/audience.jpg');
-	background-size: cover;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	background-color: black;
+	background-color: black;	
+	margin: 0 !important;
+	padding: 0 !important;
 }
 
 .audianceHeading {
@@ -1848,7 +1850,7 @@ body {
 
 .peopleAtParkBgImg {
 	background-image: url('../images/people_at_park.jpg');
-	background-size: cover;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-color: black;
 }
@@ -2009,7 +2011,7 @@ body {
 
 .mikeAndIkeBgImg {
 	background-image: url('../images/mike_and_ike.jpg');
-	background-size: cover;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-color: black;
 }
@@ -2155,7 +2157,7 @@ body {
 
 .dinosaurseMonochromeWithTextBgImg {
 	background-image: url('../images/dinosurse_monochrome_with_text_tshirts.jpg');
-	background-size: cover;
+	background-size: 100% 100%;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-color: black;
@@ -2228,7 +2230,7 @@ body {
 
 .dinosaurseMonochromeBgImg {
 	background-image: url('../images/dinosurse_monochrome_tshirts.jpg');
-	background-size: cover;
+	background-size: 100% 100%;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-color: black;
@@ -2469,7 +2471,7 @@ body {
 
 .winstonsBgImg {
 	background-image: url('../images/winstons.jpg');
-	background-size: cover;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-color: black;
 }
@@ -2615,7 +2617,7 @@ body {
 
 .margaritavilleBgImg {
 	background-image: url('../images/margaritaville.jpg');
-	background-size: cover;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-color: black;
 }
@@ -2746,7 +2748,7 @@ body {
 
 .golfCourseBgImg {
 	background-image: url('../images/championship_golf_course.jpg');
-	background-size: cover;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-color: black;
 }
@@ -2864,7 +2866,7 @@ body {
 
 .masraniBgImg {
 	background-image: url('../images/masrani.jpg');
-	background-size: cover;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-color: black;
 }
@@ -2995,7 +2997,7 @@ body {
 @media screen and (max-width: 767px) {
 	.mikeAndIkeBgImg {
 		background-image: url('../images/mike_and_ike_mobile.jpg');
-		background-size: cover;
+		background-size: 100% 100%;
 		background-repeat: no-repeat;
 		background-color: black;
 	}
@@ -3137,7 +3139,7 @@ body {
 @media screen and (max-width: 991px) {
 	.peopleAtParkBgImg {
 		background-image: url('../images/people_at_park_mobile.jpg');
-		background-size: cover;
+		background-size: 100% 100%;
 		background-repeat: no-repeat;
 		background-color: black;
 	}
