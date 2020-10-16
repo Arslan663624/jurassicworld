@@ -36,7 +36,7 @@ body {
 }
 
 
-/* ============= Navbar Started ================= */
+/* ============= Navbar Strated ================= */
 
 .navbarr {
 	position: absolute;
@@ -1451,12 +1451,6 @@ body {
 	border-top: none;
 }
 
-@media screen and (max-width: 360px) {
-	.jurassicWorldLogo {
-		width: 150px;
-	}
-}
-
 @media screen and (max-width: 763px) {
 	body {
 		margin-left: 0;
@@ -1810,11 +1804,14 @@ body {
 	margin-right: auto;
 }
 
-.familyEatingImg {	
+.familyEatingImg {
+	padding: 0;
+	margin: 0;
 	background-image: url('../images/family_eating.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	display: flex;	
+	display: flex;
+	margin: 0;
 	padding-top: 20em;
 }
 
@@ -2923,9 +2920,6 @@ body {
 	margin: 0;
 }
 
-   /* FOOTER STARTED */
-
-
 .footer {
 	background-color: #152739;
 	color: white;
@@ -2939,7 +2933,11 @@ body {
 	text-align: center;
 }
 
-   /* FOTTER ENDED */
+@media screen and (max-width: 360px) {
+	.jurassicWorldLogo {
+		width: 150px;
+	}
+}
 
 @media screen and (max-width: 800px) {
 	#audianceFirstRotatedPara {
