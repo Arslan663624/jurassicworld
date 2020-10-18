@@ -1854,18 +1854,21 @@ body {
 	width: 2em;
 	height: 2em;
 	fill: black;	
+	cursor: pointer;
 }
 
 .twitterSvg{
 	width: 2em;
 	height: 2em;
 	fill: black;
+	cursor: pointer;
 }
 
 .googleSvg{
 	width: 2em;
 	height: 2em;
 	fill: black;
+	cursor: pointer;
 }
 
 .didYouKnowDiv{
