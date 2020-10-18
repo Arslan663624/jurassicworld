@@ -1672,17 +1672,18 @@ body {
 
 .founderBgImg{
     background-image: url('../images/founder_img.jpg');
-    background-size: 100% 100%;
+	background-size: cover;
+	background-position: 50% top;
     background-repeat: no-repeat;
     background-color: black;
-    padding-top: 900px;
+    height: 100%;
 }
 
 .mttBg{
     background-image: url('../images/mtt_bg.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-color: rgb(242, 241, 236);
+	background-color: rgb(242, 241, 236);	
 }
 
 .johnHammond{
@@ -1711,6 +1712,10 @@ body {
     list-style: none;
     display: inline-flex;    
 }   
+
+.logoListFirstLi{
+	margin-right: 8.7vw;
+}
 
 .country{
     color: black;
@@ -1747,4 +1752,264 @@ body {
     font-size: 20px;
     position: relative;
     top: -40px;
+}
+
+.logoListThirdLi{
+	margin-left: 8vw;
+}
+
+.attraction{
+    color: black;
+    text-transform: uppercase;
+    line-height: 10px;
+    text-align: center;
+    font-size: 20px;    
+}
+
+.creationHexagon{
+    fill: #149782;
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.creationLogo{
+    fill: white;
+    position: relative;    
+    top: -65px;    
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.creation{
+    color: black;
+    text-transform: uppercase;    
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: -40px;
+}
+
+.dinosaur{
+    color: black;
+    text-transform: uppercase;
+    line-height: 10px;
+    text-align: center;
+    font-size: 20px;    
+}
+
+.rexHexagon{
+    fill: #46b3e3;
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rexLogo{
+    fill: white;
+    position: relative;    
+    top: -65px;    
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rex{
+    color: black;
+    text-transform: uppercase;    
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: -40px;
+}
+
+.ceoPara{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 90px;
+	font-size: 21px;
+	color: rgb(64, 57, 64);
+	font-weight: 300;
+}
+
+.share{
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 350;
+	line-height: 10px;
+}
+
+.fbSvg{
+	width: 2em;
+	height: 2em;
+	fill: black;	
+}
+
+.twitterSvg{
+	width: 2em;
+	height: 2em;
+	fill: black;
+}
+
+.googleSvg{
+	width: 2em;
+	height: 2em;
+	fill: black;
+}
+
+.didYouKnowDiv{
+	background-color: #83526f;
+	color: #e6e2e5;
+	padding: 3% 10% 3% 10%;
+	font-size: 28px;
+	text-transform: uppercase;
+}
+
+.didYouKnowHeading{
+	text-align: center;
+}
+
+.didYouKowHr{	
+	border-bottom: 2px solid #e6e2e5;
+	padding: 0px;
+	width: 100px;
+}
+
+.didiYouKnnowPara{
+	line-height: 37px;	
+	text-align: justify;
+	padding-top: 10px;	
+}
+
+.sliderPrevHexagon{
+	fill: #428bca;
+	width: 2.999em;
+	height: 2.999em;	
+}
+
+.sliderPrevHexagonBg{
+	fill: grey;		
+}
+
+/* FOOTER STARTED */
+
+.footer {
+	background-color: #152739;
+	color: white;
+}
+
+.footerText {
+	font-size: .7em;	
+	padding-top: 12px;
+	text-transform: capitalize;
+	text-align: center;
+}
+/* FOTTER ENDED */
+
+@media screen and (max-width: 1100px){
+	.logosDiv{
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@media screen and (max-width: 991px){
+	.founderBgImg{
+		height: 110vw;
+	}
+	.logosDiv{
+		padding-left: 19vw;
+		padding-right: 10%;
+	}	
+}
+
+@media screen and (max-width: 628px) {
+	.logosDiv{
+		padding-left: 12%;
+		padding-right: 7%;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	.johnHammond{
+		font-size: 15vw;
+	}
+}
+
+@media screen and (max-width: 442px) {
+	.logosDiv{
+		padding-left: 0;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.didiYouKnnowPara{
+		font-size: 5.4vw;
+		line-height: 7.5vw;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.country{
+		font-size: 15px;		
+	}
+	.scotlandHexagon{
+		width: 60px;
+		height: 60px;
+		margin-top: -8px;
+	}
+	.scotlandLogo{
+		width: 40px;
+		height: 40px;
+		margin-top: 14px;
+	}	
+	.scotland{
+		font-size: 15px;
+		margin-top: -10px;
+	}
+	.attraction{
+		font-size: 15px;		
+	}
+	.creationHexagon{
+		width: 60px;
+		height: 60px;
+		margin-top: -8px;
+	}
+	.creationLogo{
+		width: 40px;
+		height: 40px;
+		margin-top: 14px;
+	}	
+	.creation{
+		font-size: 15px;
+		margin-top: -10px;
+	}
+	.dinosaur{
+		font-size: 15px;		
+	}
+	.rexHexagon{
+		width: 60px;
+		height: 60px;
+		margin-top: -8px;
+	}
+	.rexLogo{
+		width: 40px;
+		height: 40px;
+		margin-top: 14px;
+	}	
+	.rex{
+		font-size: 15px;
+		margin-top: -10px;
+	}
 }
