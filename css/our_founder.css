@@ -1895,6 +1895,8 @@ body {
 	padding-top: 10px;	
 }
 
+/* ================================== slider started ======================== */
+
 .sliderPrevHexagon{
 	fill: #428bca;
 	width: 2.999em;
@@ -1904,6 +1906,8 @@ body {
 .sliderPrevHexagonBg{
 	fill: grey;		
 }
+
+/* ================================== slider ended ======================== */
 
 /* FOOTER STARTED */
 
